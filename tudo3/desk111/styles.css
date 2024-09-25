@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Aumenta a altura da tela para 100% da janela do navegador */
+    background-color: #1A2A39;
+}
+
+.container {
+    display: flex;
+    width: 90%; /* Mantém a largura ocupando 90% da tela */
+    max-width: 1400px; /* Limite máximo de largura */
+    height: 95%; /* Aumentado para ocupar 95% da altura da tela */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 230px;
+    background: linear-gradient(to bottom, #F9E79F, #F7DC6F);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-right: 2px solid #243b55;
+}
+
+.sidebar-button {
+    width: 80%;
+    padding: 15px; /* Aumentado o padding para botões maiores */
+    margin: 15px 0; /* Aumentado o espaço entre os botões */
+    border: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 20px;
+    color: #555;
+}
+
+.sidebar-button.games {
+    background-color: #E74C3C;
+    color: white;
+}
+
+.sidebar-button.exercises {
+    background-color: #5DADE2;
+    color: white;
+}
+
+.sidebar-button.score {
+    background-color: #F1C40F;
+    color: white;
+}
+
+.selected {
+    background-color: #2DAAE2;
+}
+
+.profile-button {
+    width: 80%;
+    padding: 15px; /* Aumentado o padding para botões maiores */
+    margin: 15px 0; /* Aumentado o espaço entre os botões */
+    border: none;
+    background-color:  #28B463;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 20px;
+    color: #f3efef;
+    
+}
+
+
+
+
+.content {
+    flex: 1;
+    padding: 40px; /* Aumentado o padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F2F5F8;
+}
+
+h2 {
+    color: #27d617;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px; /* Aumentado o tamanho da fonte */
+    font-weight: normal;
+}
+
+.question {
+    text-align: center;
+    margin-bottom: 40px; /* Aumentado o espaçamento inferior */
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Aumentado o espaço entre os botões de resposta */
+}
+
+.options button {
+    padding: 15px 30px; /* Aumentado o padding dos botões */
+    font-size: 20px; /* Aumentado o tamanho da fonte */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-bar {
+    flex: 1;
+    height: 15px; /* Aumentado a altura da barra de progresso */
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.progress {
+    width: 60%;
+    height: 100%;
+    background-color: #20d329;
+}
+
+.points {
+    font-size: 24px; /* Aumentado o tamanho da fonte */
+    color: #5793aa;
+}
+
+.next-button {
+    align-self: flex-end;
+    padding: 15px 25px; /* Aumentado o padding do botão de próximo */
+    font-size: 28px; /* Aumentado o tamanho da fonte */
+    background-color: #1eb845;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

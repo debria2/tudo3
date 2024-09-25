@@ -1,0 +1,190 @@
+body {
+    margin: 5;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-image: url('planeta.png'); /* Caminho para a imagem no mesmo diretório */
+    border-color: 20px rgb(54, 49, 49);
+
+    background-size: cover; /* Faz a imagem cobrir todo o body */
+    background-position: left; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+}
+
+/* Mantém a imagem de fundo da .main-content */
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Necessário para sobreposição de elementos se houver */
+    /* Adicione outras propriedades específicas da .main-content aqui, se necessário */
+}
+
+/* Outras regras de estilo permanecem inalteradas */
+.sidebar {
+    
+       
+        
+        background: linear-gradient(to bottom, #F9E79F, #F7DC6F);
+        padding: 20px; 
+
+    display: flex; 
+
+    flex-direction: column; 
+
+    align-items: center; 
+
+    gap: 20px; 
+
+    width: 200px; 
+
+    border-right: 2px solid #243b55; 
+    
+    
+}
+
+
+
+.sidebar-button {
+    margin-top: auto;
+    display: flex;
+    align-items: center;  /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    gap: 25px; /* Ajusta o espaçamento entre o texto e o ícone */
+    background-color: #D0ECE7;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    margin: 10px 0;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+}
+
+
+    
+
+.sidebar_perfil{
+    padding-top: 270px;
+    
+    
+}
+
+
+.sidebar-button.jogos {
+    background-color: #E74C3C;
+    
+    
+}
+
+.sidebar-button.exercicios {
+    background-color: #5DADE2;
+    margin-top: 30px;
+    
+   
+}
+
+.sidebar-button.pontuacao {
+    background-color: #F1C40F;
+    margin-top: 30px;
+    
+    
+    
+}
+
+.sidebar-button.perfil {
+    background-color: #28B463;
+    padding-top: 20px;
+    
+}
+
+.icon{
+    width: 45px;
+    height: 45px;
+    
+}
+
+.category { 
+
+    display: column; 
+
+    align-items: center; 
+
+    gap: 20px; 
+
+} 
+
+ 
+
+h2 { 
+     
+        color: #ffffff; 
+        margin: 0; 
+        width: auto; /* Remove o valor fixo de largura, permitindo que se ajuste ao conteúdo */
+        font-size: 30px; /* Aumenta o tamanho da fonte */
+        text-align: center; /* Centraliza o texto */
+        padding: 15px; /* Adiciona preenchimento em torno do título */
+        width: 100px; 
+        
+        display: flex; 
+            
+        
+        
+
+} 
+.buttons-container {
+    display: flex;
+    margin-left: 20px; /* Move todos os botões para a direita */
+    align-items: flex-start; /* Mantém os botões alinhados à esquerda */
+    gap: 15px;
+
+}
+    
+
+
+.activity-button {
+    margin-top: 30px; /* Espaçamento entre os botões */
+}
+
+
+ 
+
+.activity-button { 
+
+    padding: 20px 30px; 
+
+    border: none; 
+
+    border-radius: 20px; 
+
+    font-size: 16px; 
+
+    cursor: pointer; 
+
+    color: #fff; 
+    margin: left;
+
+} 
+
+ 
+
+.green { 
+
+    background-color: #38c172; 
+
+} 
+
+ 
+
+.red { 
+
+    background-color: #c53030; 
+
+} 
+
+ 
